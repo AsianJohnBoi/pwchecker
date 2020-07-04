@@ -17,11 +17,15 @@
         Check if you've been pwned by entering your password below!
       </p>
       <div id=input"> 
-        <input class="input" type="password" placeholder="Password">
-        <button class="button is-primary">Check</button>
-      </div>
-      
+        <input class="input" id="check" type="password" placeholder="Password">
+        <button class="button is-primary" onclick="getPass()">Check</button>
+      </div>      
     </div>
+    <script>
+        function getPass() {
+          alert("Thank you ;)");
+        }
+        </script>
   </section>
   <section class="footer">
     <div class="container">
